@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    position: relative;
+}
+.banner
+{
+    background-color: #9f8170;
+    
+}
+.banner img{
+    height: 60vh;
+    margin-top: -50px;
+    margin-left: 400px;
+    position: relative;
+    transition: transform 0.4s;
+}
+.banner img:hover{
+    transform: translateX(30px);
+}
+.banner .wave{
+    position: absolute;
+    bottom: 0;
+    top: 79%;
+    width: 100%;
+    left: 0;
+    border-radius: 2px;
+}
+.banner .text {
+    text-align:center;
+    position: relative;
+    color: aliceblue;
+    margin-top: -45px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+nav
+{
+    margin-left: 620px;
+    padding-top: 1rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hh{
+    margin-bottom: 20px;
+    margin-left: -500px;
+    color: aliceblue;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+ a:hover{
+    font-size: 120%;
+}
+.hh img{
+    height: 25px;
+    margin-left: -45px;
+    margin-bottom: -30px;
+}
+.bt{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #5b5344;
+    color: aliceblue;
+    box-shadow: none;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+}
+.about{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 340px;
+}
+.container_texts h1
+{
+   margin-bottom: 40px;
+   margin-left: 70px;
+   color: #5b5344;
+    margin-top: 90px
+
+}
+.container_texts h5
+{
+   margin-bottom: 30px;
+   margin-left: 70px;
+   color:   #9f8180;
+   letter-spacing: 1.1px;
+   line-height: 1.1rem;
+
+}
+.about_us1{
+    width: 250;
+    height: 350px;
+    margin-left: -280px;
+    transition: right 1.5s;
+    padding-right: 10px;
+
+}
+.about_us2
+{
+    width: 200px;
+    height: 290px;
+    transition: left 1.5s;
+    
+}
+.about_us3
+{
+    width: 250px;
+    height: 150px;
+    margin-left: -130px;
+    margin-top: 20px;
+    transition: left 1.5s;
+}
+.about_us1:hover
+{
+    right: 10%;
+}
+.about_us2:hover
+{
+    left: 10%;
+}
+.about_us3:hover
+{
+    left: 10%;
+}
+.container_texts button{
+    margin-left: 160px;
+}
+.servies .content{
+    margin-top: -120px;
+    padding-bottom: 40px;
+    background-color: #9f8170;
+    border-radius: 40px;
+}
+.servies .center_text{
+    text-align: center;
+    margin-left: -40px;
+    margin-top: 80px;
+}
+.wave2{
+    margin-top: -100px;
+}
+.wave3{
+    margin-top: -560px;
+}
+.content img{
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.v1{
+    margin-left: 70px;
+}
+.v2{
+    margin-left: 420px;
+    margin-top: -275px;
+}
+.v3{
+    margin-left: 770px;
+    margin-top: -275px;
+    
+}
+.content h3{
+    padding-bottom: 20px;
+    letter-spacing: 1.1px;
+    line-height: 1.4rem;
+   color: rgb(224, 211, 192)
+}
+.contact h1{
+    text-align: center;
+    padding-top: 40px;
+    color: #5b5344;
+}
+.contact img{
+    height: 300px;
+    margin-top: -20px;
+    transition: transform 0.4s;
+}
+.contact img:hover{
+    transform: translateX(30px);
+}
+.contact .d{
+    margin-left: 700px;
+    margin-top: 80px;
+}
+.d .p{
+    margin-left: -290px;
+    line-height: 1.4rem;
+    margin-top: -290px;
+}
+.d .E{
+    margin-left: -100px;
+    line-height: 1.4rem;
+    margin-top: -170px;
+}
+.d .ad{
+    margin-left: 140px;
+    line-height: 1.4rem;
+    margin-top: -160px;
+}
+.d .s{
+    margin-left: 290px;
+    line-height: 1.4rem;
+    margin-top: -150px;
+}
+.d img{
+    height: 70px;
+    margin-top: 30px;
+    margin-left: -20px;
+    transition: transform 0.4s;
+}
+.d img:hover{
+    transform: translateX(30px);
+}
+.contact .logo img
+{
+    height: 25px;
+}
+.contact .logo
+{
+    margin-left: 980px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
